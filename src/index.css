@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Ephesis&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .btn {
+            @apply bg-transparent border border-white text-white hover:bg-txtColor  font-bold  px-2 py-2 rounded-lg font-mulish xs:w-[50px] xs:h-[25px] xs:text-[11px] sm:w-[80px] sm:h-[40px] sm:text-[15px] text-center justify-center items-center
+            md:w-[90px] md:h-[45px] md:text-[20px]
+            lg:w-[70px] lg:h-[40px] lg:text-[18px]
+            xl:w-[90px] xl:h-[50px] xl:text-[25px]
+        }
+}
