@@ -1,5 +1,5 @@
 import React from 'react'
-import FooterBg from '../assets/img/FooterBg.jpg'
+import FooterBg from '../assets/img/FooterBg.webp'
 import { FaFacebookF, FaInstagram, FaTwitter } from 'react-icons/fa';
 
 const BgStyle ={

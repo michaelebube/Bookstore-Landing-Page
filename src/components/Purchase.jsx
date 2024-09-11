@@ -1,5 +1,5 @@
 import React from 'react'
-import BookImg from '../assets/img/BookImg.jpg'
+import BookImg from '../assets/img/BookImg.webp'
 
 const BgStyle = {
     backgroundImage: `url(${BookImg})`,

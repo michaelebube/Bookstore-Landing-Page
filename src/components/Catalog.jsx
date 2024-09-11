@@ -1,5 +1,5 @@
 import React from 'react';
-import CatalogImg from '../assets/img/CatalogBg.jpg';
+import CatalogImg from '../assets/img/CatalogBg.webp';
 import { FaArrowRight } from 'react-icons/fa';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';

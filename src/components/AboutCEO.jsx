@@ -1,5 +1,5 @@
 import React from 'react'
-import CEOImg from '../assets/img/CEOImg.jpg'
+import CEOImg from '../assets/img/CEOImg.webp'
 
 const AboutCEO = () => {
   return (

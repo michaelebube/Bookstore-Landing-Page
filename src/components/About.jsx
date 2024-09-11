@@ -1,5 +1,5 @@
 import React from 'react'
-import AboutImg from '../assets/img/AboutBook.png'
+import AboutImg from '../assets/img/AboutBook.webp'
 import { FaPlay } from 'react-icons/fa'
 
 const About = () => {
