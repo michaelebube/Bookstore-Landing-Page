@@ -1,6 +1,7 @@
 import React from 'react'
 import AboutImg from '../assets/img/AboutBook.webp'
 import { FaPlay } from 'react-icons/fa'
+import LazyLoad from 'react-lazyload';
 
 const About = () => {
   return (
@@ -9,12 +10,15 @@ const About = () => {
     <div className='grid grid-cols-2 xs:grid-cols-1 xs:space-y-4 sm:grid-cols-2 gap-2'>
         {/* Image Section */}
       <div className='xs:w-[280px] sm:w-[320px] md:w-[380px] lg:w-[480px] xl:w-[725px] relative'>
-        <div>
-          <img
+        <div className="image-container">
+          <LazyLoad>
+               <img
             src={AboutImg}
             alt=""
             className='h-[200px] w-[150px] xs:w-[260px] xs:h-[250px] sm:w-[300px] sm:h-[340px] md:w-[405px] md:h-[375px] lg:w-[450px] lg:h-[450px] xl:w-[675px] xl:h-[600px] rounded-sm shadow-inner-md'
           />
+          </LazyLoad>
+       
         </div>
         <div className='absolute inset-0 flex items-center justify-center'>
           <div className="bg-white rounded-full p-4 flex items-center justify-center">

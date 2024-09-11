@@ -16,3 +16,10 @@
             xl:w-[90px] xl:h-[50px] xl:text-[25px]
         }
 }
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+
+}
