@@ -13,18 +13,18 @@ const Navbar = () => {
 
         <div className='flex xs:gap-[12px]  sm:gap-[40px] font-mulish text-txtColor xl:-translate-x-[500px] sm:text-[13px] text-[10px] md:text-md lg:text-lg xl:text-xl  '>
           <Link to='about-us' smooth= {true} >
-            <p className='hover:text-white'>ABOUT US</p>
+            <p className='hover:text-white cursor-pointer'>ABOUT US</p>
           </Link>
           
            
           
          <Link to='catalog' smooth={true} offset={-10}>
-            <p className='hover:text-white'>CATALOG</p> 
+            <p className='hover:text-white cursor-pointer'>CATALOG</p> 
          </Link> 
             
        
           <Link to='aboutCEO' smooth={true} offset={-30}>
-            <p className='hover:text-white'>ABOUT C.E.O</p>
+            <p className='hover:text-white cursor-pointer'>ABOUT C.E.O</p>
           </Link>
             
             
