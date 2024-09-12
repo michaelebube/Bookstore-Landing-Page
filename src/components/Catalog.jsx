@@ -40,10 +40,10 @@ const Catalog = () => {
   return (
     <>
       <div id = 'catalog' style={BgStyle} className='xs:my-[10px] sm:my-[30px] w-full xs:h-[240px] sm:h-[300px] xl:h-[500px] relative'>
-        <div className='flex flex-col justify-center mt-[20px] relative text-center'>
-          <div className="h-[1px] w-8 sm:w-20 xs:w-11 bg-gray-950 mx-auto"></div>
-          <h1 className='font-cinzel text-center sm:text-2xl font-bold'>catalog</h1>
-          <div className="h-[1px] w-8 sm:w-20 xs:w-11 bg-gray-950 mx-auto"></div>
+        <div className=' px-[42%] lg:px-[45%] xl:px-[46%] mt-[20px] relative  '>
+          <div className="absolute h-[1px] sm:w-20 xs:w-10 bg-gray-950 mx-auto"></div>
+          <h1 className='font-cinzel  sm:text-2xl font-bold'>catalog</h1>
+          <div className="absolute h-[1px]  sm:w-20 xs:w-10 bg-gray-950 mx-auto "></div>
         </div>
         <div className='absolute right-10 top-10 flex items-center gap-2 group'>
           <h1 className='font-cinzel xs:text-[10px] sm:text-[13px] md:text-lg font-bold'>View all</h1>

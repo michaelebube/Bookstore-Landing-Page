@@ -6,7 +6,7 @@ import LazyLoad from 'react-lazyload';
 const About = () => {
   return (
     <>
-          <div id='about-us' className='my-[50px] '>
+          <div id='about-us' className='my-[60px] '>
     <div className='grid grid-cols-2 xs:grid-cols-1 xs:space-y-4 sm:grid-cols-2 gap-2'>
         {/* Image Section */}
       <div className='xs:w-[280px] sm:w-[320px] md:w-[380px] lg:w-[480px] xl:w-[725px] relative'>
@@ -15,7 +15,7 @@ const About = () => {
                <img
             src={AboutImg}
             alt=""
-            className='h-[200px] w-[150px] xs:w-[260px] xs:h-[250px] sm:w-[300px] sm:h-[340px] md:w-[405px] md:h-[375px] lg:w-[450px] lg:h-[450px] xl:w-[675px] xl:h-[600px] rounded-sm shadow-inner-md'
+            className='h-[200px] w-[150px] xs:w-[260px] xs:h-[250px] sm:w-[300px] sm:h-[340px] md:w-[405px] md:h-[375px] lg:w-[450px] lg:h-[450px] xl:w-[65px] xl:h-[280px] rounded-sm shadow-inner-md'
           />
           </LazyLoad>
        
@@ -29,16 +29,16 @@ const About = () => {
 
         {/* Text Section */}
       <div >
-        <div className='flex flex-col xs:gap-1 sm:gap-2 relative xl:mt-[72px]'>
-            <div class="h-[1px] w-8 sm:w-20 xs:w-11 bg-gray-950 absolute left-[30px] -top-[1px] xs:left-[160px] xs:-top-[2px] sm:left-[110px] sm:-top-[6px] md:left-[130px] md:-top-[5px] lg:left-[160px] lg:-top-[5px] xl:left-[200px] xl:-top-[5px] 2xl:left-[310px] 2xl:-top-[5px]"></div>
-            <h1 className='font-cinzel  text-center sm:text-2xl font-bold '>ABOUT US</h1>
-            <div class="h-[1px] w-8 sm:w-20 xs:w-11 bg-gray-950 absolute left-[30px] -bottom-[1px] xs:left-[160px] xs:-bottom-[1px] sm:left-[110px] sm:-bottom-[5px] md:left-[130px] md:-bottom-[5px] lg:left-[160px] lg:-bottom-[5px] xl:left-[200px] xl:-bottom-[5px] 2xl:left-[310px] 2xl:-bottom-[5px] "></div>
+        <div className='xs:gap-1 sm:gap-2 relative xl:mt-[25%] md:px-[35%] px-[38%] sm:px-[32%] xl:px-[40%] '>
+            <div class="h-[1px] w-8 sm:w-20 xs:w-11 bg-gray-950   absolute "></div>
+            <h1 className='font-cinzel   sm:text-xl xl:text-3xl  font-bold w-[120px] xl:w-[200px] '>ABOUT US</h1>
+            <div class="h-[1px] w-8 sm:w-20 xs:w-11 bg-gray-950 absolute "></div>
 
       </div>
 
       <div className=' md:py-[20px]  py-[10px] sm:py-[12px]  xs:w-[300px]  sm:w-[250px] sm:ml-8 md:w-[300px] lg:w-[400px]   
-      xl:w-[450px] 2xl:w-[500px] xs:mx-auto md:ml-12 xl:mx-auto '>
-        <div className=' '>
+      xl:w-[450px] 2xl:w-[500px] xs:mx-auto md:px-2 xl:mx-auto '>
+        <div className=''>
             <p className='font-mulish text-center md:text-lg lg:text-xl xl:text-3xl 2xl:text-[25px]'>
             Welcome to <span className='font-ephesis text-3xl xs:text-xl sm:text-3xl xl:text-4xl text-gray-950 text-center '>Bookaholic</span>, where our passion for books fuels everything we do. From bestsellers to hidden gems, we curate an extensive collection to satisfy every reader's taste. Our mission is to connect people with the stories that inspire and transform. Join our community of book lovers and discover your next great read at our book haven, where every page opens a new world.
         </p>
